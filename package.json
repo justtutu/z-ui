@@ -1,7 +1,7 @@
 {
-  "name": "vui",
+  "name": "rowing-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -11,6 +11,12 @@
   "description": "an vue ui components lib",
   "keywords": ["vue", "component", "components", "ui"],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justtutu/z-ui.git"
+  },
+  "homepage": "https://github.com/justtutu/z-ui",
+  "main": "lib/zui.umd.min.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
