@@ -1,18 +1,21 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-06-02 17:34:27
+ * @LastEditTime: 2020-06-03 13:39:18
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \vui\examples\App.vue
+--> 
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <z-button type="primary">测试</z-button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
 
